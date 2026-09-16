@@ -101,7 +101,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <header className="site-header">
-        <a href="/" className="brand" aria-label="Căn thẻ A4 - trang chủ">
+        <a href={import.meta.env.BASE_URL} className="brand" aria-label="Căn thẻ A4 - trang chủ">
           <span className="brand-mark">
             <CreditCard size={23} />
           </span>
